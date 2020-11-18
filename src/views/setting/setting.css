@@ -1,0 +1,62 @@
+@charset"utf-8";
+.printer-tables{
+	width: 60%;
+	float: left;
+}
+.printer-page{
+	width: 40%;
+	float: left;
+}
+.title{
+	font-weight: bold;
+	line-height: 40px;
+	font-size: 16px;
+}
+.printer-tables table{
+	width: 90%
+}
+.t-iframe{
+	position: absolute;
+    top: 50px;
+    left: 5px;
+    right: 0;
+    bottom: 0px;
+    background: #fff;
+    overflow: hidden;
+}
+.buttons{
+	margin-top: 20px;
+}
+#ticket .titles{
+	margin-top: 20px;
+}
+#ticket .titles label,#ticket .titles input{
+	float: left;
+	line-height: 40px;
+}
+#ticket .titles button{
+	margin-left: 10px;
+	height: 40px;
+}
+#ticket div input{
+	width: 200px;
+}
+#ticket div #editor{
+	margin: 0;
+    position: absolute;
+    top: 70px;
+    bottom: 0;
+    left: -20px;
+    right: 10px;
+}
+#key{
+	width: 100%;
+}
+#key table{
+	margin-top: 10px;
+	width: 70%;
+}
+#key table input{
+	width: 90%;
+	height: 26px;
+}

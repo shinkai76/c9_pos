@@ -1,0 +1,78 @@
+@charset"utf-8";
+.t-top{
+	width: 100%;
+	padding-top: 10px;
+	height: 40px;
+}
+.t-top div.item{
+	float: left;
+	margin-left: 10px;
+    display: flex;
+    line-height: 34px;
+}
+.t-top div.item input{
+	color: #454545;
+}
+.t-top div.item button{
+	padding: 6px 10px;
+}
+.t-middle{
+	width: 100%;
+	height: 60px;
+}
+.price-tabs{
+	height: 50px;
+	width: 100px;
+	float: left;
+	margin-left: 20px;
+	border: 2px solid rgb(255, 183, 82);
+	border-radius: 5px;
+}
+.price-tabs div{
+	line-height: 25px;
+	text-align: center;
+}
+.t-bottom {
+	position: fixed;
+	top: 160px;
+	bottom: 0px;
+	width: 100%;
+	overflow-y: auto;
+}
+.t-bottom .t-table{
+	width: 100%;
+}
+.t-mask{
+	position: relative;
+	top: 5%;
+	left: 5%;
+	border: 1px solid #797979;
+	width: 90%;
+	bottom: 5%;
+	min-height: 200px;
+	max-height: 90%;
+	background: #fff;
+    box-shadow: 0 0 3px 1px rgba(0,0,0,.2);
+}
+.t-mask table{
+	width: 98%;
+	margin: 0 auto;
+}
+.t-tips{
+	min-height: 80px;
+}
+.t-tips div{
+	float: left;
+	line-height: 50px;
+	margin-left: 20px;
+	font-size: 18px;
+	min-width: 120px;
+}
+.t-close{
+    font-size: 24px;
+    position: absolute;
+    z-index: 100;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+}

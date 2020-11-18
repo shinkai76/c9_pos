@@ -1,0 +1,38 @@
+@charset"utf-8";
+.s-top{
+	width: 100%;
+	height: auto;
+}
+.s-search{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.s-search label{
+	font-size: 18px;
+}
+.s-search input{
+	width: 230px;
+	margin-left: 10px;
+}
+.s-search .search {
+    margin-left: 10px;
+    float: none;
+    padding: 5px 8px;
+}
+.s-table table{
+	width: 100%;
+}
+#pros_table{
+    position: absolute;
+	top:  100px;
+	overflow-y:auto;
+	width: 100%;
+	height: 45%;
+}
+#pros_stock_table{
+	position: absolute;
+	bottom: 0px;
+	overflow-y:auto;
+	width: 100%;
+	height: 45%;
+}
